@@ -102,7 +102,7 @@ class VersionUtil:
 
 def startGame():
     print("Starting Game")
-    subprocess.Popen(["StandaloneWindows64/MetaMochiHorrorHouse.exe"])
+    subprocess.Popen(["StandaloneWindows64/Lincoln Conversational AI.exe"])
     os._exit(0)
     pass
 
@@ -121,11 +121,11 @@ def main():
 
     del(versionUtil)
 
-    versionUtil = VersionUtil("https://api.github.com/repos/HappyMaki/metamochihorrorhouse-Releases/releases")
+    versionUtil = VersionUtil("https://api.github.com/repos/HappyMaki/SimulEducations-ConversationalAvatars-Releases/releases")
     if not versionUtil.isNewVersionAvailable():
         startGame()
     else:
-        raise Exception("Failed to get new version. Please get it directly from https://github.com/HappyMaki/metamochihorrorhouse-Releases")
+        raise Exception("Failed to get new version. Please get it directly from https://github.com/HappyMaki/SimulEducations-ConversationalAvatars-Releases")
 
 
 if __name__ == "__main__":
