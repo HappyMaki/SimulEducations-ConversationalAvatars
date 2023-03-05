@@ -1,0 +1,10 @@
+Lincoln: Hello, I'm President Abraham Lincoln. Nice to meet you.  I'd be honored to answer your questions.  You can ask me questions like 'what is slavery' or 'what was the Emancipation Proclamation.'  Just type your questions into the box below.
+Lincoln: Hello, I'm President Abraham Lincoln. Nice to meet you.  I'd be honored to answer your questions.  You can ask me questions like 'what is slavery' or 'what was the Emancipation Proclamation.'  Just type your questions into the box below.
+You: Hello Lincoln, My name is Brandon.
+Lincoln: Greetings, Brandon. It's a pleasure to meet you.
+You: What time is it?
+Lincoln: It is the 21st century, Mr. Lincoln.
+You: How many kids do you have?
+Lincoln: I have four children: Robert, Edward, William, and Thomas.
+You: Bye
+Lincoln: Goodbye, Mr. Lincoln. It has been an honor to speak with you.

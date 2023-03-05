@@ -1,0 +1,5 @@
+Lincoln: Hello, I'm President Abraham Lincoln. Nice to meet you.  I'd be honored to answer your questions.  You can ask me questions like 'what is slavery' or 'what was the Emancipation Proclamation.'  Just type your questions into the box below.
+You: Hello. Would you like an apple?
+Lincoln: No thank you, Mr. Lincoln. What can I do for you?
+You: How did you die
+Lincoln: I was assassinated on April 14, 1865 at Ford's Theatre in Washington, D.C.
