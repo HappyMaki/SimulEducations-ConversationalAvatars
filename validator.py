@@ -1,41 +1,23 @@
-#!/usr/bin/env python
-
-from __future__ import print_function
-import httplib2
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
 import os
+import argparse
 
-from apiclient import discovery
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "keys/wired-analogy-379505-f88801e83871.json"
+cred = credentials.ApplicationDefault()
 
+firebase_admin.initialize_app(cred)
+db = firestore.client()
 
-def main(key=None):
-    discoveryUrl = ('https://sheets.googleapis.com/$discovery/rest?'
-                    'version=v4')
-    service = discovery.build(
-        'sheets',
-        'v4',
-        http=httplib2.Http(),
-        discoveryServiceUrl=discoveryUrl,
-        developerKey=key)
+parser = argparse.ArgumentParser()
+parser.add_argument('--accountname')
+args = parser.parse_args()
 
-    spreadsheetId = '116V404HIRTdtGVC155SAqmo9-T6mG-ELbdIFU_6Q5Qg'
-    rangeName = 'Class Data!A2:E'
-    result = service.spreadsheets().values().get(
-        spreadsheetId=spreadsheetId, range=rangeName).execute()
-    values = result.get('values', [])
+# doc_ref = db.collection(u'accounts').document(u'myfirstaccount')
+doc_ref = db.collection(u'accounts').document(args.accountname)
 
-    if not values:
-        print('No data found.')
-    else:
-        print('Name, Major:')
-        for row in values:
-            # Print columns A and E, which correspond to indices 0 and 4.
-            print('%s, %s' % (row[0], row[4]))
+f = open("keys/firestore-hash", "w")
+f.write(doc_ref.get().to_dict()["password_hash"])
+f.close()
 
-
-if __name__ == '__main__':
-    from sys import argv
-
-    if len(argv) == 2:
-        main(key="AIzaSyD1n_p8lQh8zBk30-mF_Q6xgyXEYCjMKVs")
-    else:
-        main(key="AIzaSyD1n_p8lQh8zBk30-mF_Q6xgyXEYCjMKVs")
