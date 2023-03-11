@@ -74,7 +74,7 @@ class myGUI(tk.Frame):
 
     def build_gui(self):
         # Build GUI
-        self.root.title('TEST')
+        self.root.title('Simulations Education Patcher')
         self.root.option_add('*tearOff', 'FALSE')
         self.grid(column=0, row=0, sticky='ew')
         self.grid_columnconfigure(0, weight=1, uniform='a')
