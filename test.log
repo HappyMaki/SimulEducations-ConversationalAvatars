@@ -1200,3 +1200,25 @@
 2023-03-11 16:15:20,586 - INFO - Current Version: _2023-03-11T21:04:51Z
 2023-03-11 16:15:20,586 - INFO - Latest Version: _2023-03-11T21:04:51Z
 2023-03-11 16:15:20,587 - INFO - Starting Game
+2023-03-11 16:19:29,270 - INFO - uploading logs to cloud
+2023-03-11 16:19:29,300 - INFO - False
+2023-03-11 16:19:29,536 - INFO - Current Version: _2023-03-11T21:04:51Z
+2023-03-11 16:19:29,537 - INFO - Latest Version: _2023-03-11T21:04:51Z
+2023-03-11 16:19:29,605 - INFO - Current Version: _2023-03-11T21:04:51Z
+2023-03-11 16:19:29,606 - INFO - Latest Version: _2023-03-11T21:04:51Z
+2023-03-11 16:19:29,606 - INFO - Starting Game
+2023-03-11 16:19:58,551 - INFO - uploading logs to cloud
+2023-03-11 16:19:58,580 - INFO - False
+2023-03-11 16:19:58,667 - INFO - Current Version: _2023-03-11
+2023-03-11 16:19:58,667 - INFO - Latest Version: _2023-03-11T21:04:51Z
+2023-03-11 16:19:58,667 - INFO - Current Version: _2023-03-11
+2023-03-11 16:19:58,667 - INFO - Latest Available Version: _2023-03-11T21:04:51Z
+2023-03-11 16:19:58,669 - INFO - Cleaning Local Files
+2023-03-11 16:19:58,669 - INFO - Downloading
+2023-03-11 16:20:02,283 - INFO - Downloaded: 326.11863708496094 MB
+2023-03-11 16:20:06,209 - INFO - Unzipping
+2023-03-11 16:20:10,391 - INFO - Cleaning temp files
+2023-03-11 16:20:10,410 - INFO - Manual Download Url: https://github.com/HappyMaki/SimulEducations-ConversationalAvatars-Releases/releases/download/latest/bin.zip
+2023-03-11 16:20:10,612 - INFO - Current Version: _2023-03-11T21:04:51Z
+2023-03-11 16:20:10,612 - INFO - Latest Version: _2023-03-11T21:04:51Z
+2023-03-11 16:20:10,613 - INFO - Starting Game
