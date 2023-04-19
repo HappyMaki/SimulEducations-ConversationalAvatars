@@ -2,3 +2,5 @@ StandaloneWindows64/
 venv/
 version.txt
 *.pyc
+keys/firestore-hash
+keys/hash.txt
